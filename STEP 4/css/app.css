@@ -1,0 +1,46 @@
+[data-role=page] {
+    height: 100% !important;
+    position: relative !important;
+}
+[data-role=footer] {
+    bottom: 0;
+    position: absolute !important;
+    top: auto !important;
+    width: 100%;
+}
+.ui-page .ui-header {
+    background: #FF6600 !important;
+}
+.ui-overlay-a,
+.ui-page-theme-a,
+.ui-page-theme-a .ui-panel-wrapper {
+    background-color: antiquewhite !important;
+}
+.speaker-details {
+    margin: 0 auto;
+}
+.speaker-profile {
+    display: inline;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+.speaker-image {
+    width: 100px;
+    height: 120px;
+}
+.speaker-handler {
+    color: silver;
+}
+#event-details {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#left-panel {
+    background-color: antiquewhite;
+}
+[data-role=footer] {
+    background: #FF6600 !important;
+}
